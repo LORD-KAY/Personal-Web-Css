@@ -1,0 +1,322 @@
+*{
+    margin:0 auto;
+}
+nav {
+    width: 100%;
+    height: 65px;
+}
+nav.nav-wrapper ul li a{
+    text-transform:capitalize;
+    font-family:'Raleway',sans-serif;
+    font-weight:800;
+}
+div.full-bg-img{
+    width:100%;
+    height:700px;
+    position:relative;
+    z-index: 2;
+}
+div.bounce-anim a{
+    padding:10px 10px 10px 10px;
+}
+div.bounce-anim a>i.fa-chevron-down{
+    padding:8px;
+    margin-top:50px;
+    -webkit-animation:bounce 3000;
+    -o-animation:bounce 3000;
+    animation:bounce 3000;
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+div.view
+{
+    padding-top:80px;
+    width:100%;
+    height:700px;
+    background: url("../images/iphone_se-1366x768.jpg") no-repeat;
+}
+div.flex-center{
+    text-align: center;
+    text-justify: auto;
+}
+div.flex-header{
+    padding-top:140px;
+    font-family:'Raleway',sans-serif;
+    line-height:2;
+}
+div.flex-header h3{
+    height:auto;
+}
+ul.item-lists{
+    list-style:none none;
+}
+ul.item-lists li{
+    cursor: pointer;
+    list-style: none none;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 12px 5px 12px;
+    margin: 10px 10px 20px;
+    border:1px solid #ffffff;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+ul.item-lists li a>i.fa{
+    font-size:30px;
+}
+
+ul.item-lists li:hover{
+    background-color:#717171;
+}
+/* Color Codes for each of the item or icon at the bottom of the flex center - header*/
+ul.item-lists li a>i.fa-html5:hover{
+    color:#ff3d00;
+}ul.item-lists li a>i.fa-css3:hover{
+    color:#0288d1;
+ }
+ ul.item-lists li a>i.fa-joomla:hover{
+     color:#ffea00;
+ }
+ul.item-lists li a>i.fa-wordpress:hover{
+    color:#4fc3f7;
+}
+ul.item-lists li a>i.fa-slack:hover{
+    color:teal;
+}
+
+section#main_about{
+    width:100%;
+    height:auto;
+
+}
+div.about-pane{
+    margin-top:710px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+
+}
+div.about-header h2,div.gallery-header h2,div.services-header h2,div.contact-header h2{
+    font-family:'Raleway',sans-serif;
+    margin-top:25px;
+    font-size:35px;
+}
+div.about-header h2>i.fa-user-circle,div.gallery-header h2>i.fa-camera,div.services-header h2>i.fa-cogs,div.contact-header h2>i.fa-phone{
+    font-size:25px;
+}
+div.about-body{
+    width:60%;
+    font-family:'Raleway',sans-serif;
+    font-size:20px;
+}div.about-body>p{
+     line-height:2;
+ }
+
+ /*Codes for the gallery pane */
+section#gallery{
+    width:100%;
+    height:auto;
+}
+div.gallery-pane {
+    width:100%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+div.gallery-body{
+    width: 95%;
+}
+div.container-flex img{
+    margin:14px;
+    height:auto;
+
+}
+.container-flex>img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+}
+.container-flex>img:hover{
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+/*Codes for the services pane together with the skill set and the services*/
+section#services{
+    width:100%;
+    height:auto;
+}
+div.services-pane{
+    width:100%;
+    height:auto;
+    webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+div.skill-header h4{
+    font-family:'Raleway',sans-serif;
+    font-size:22px;
+}
+div.skill-pane{
+    width:100%;
+    height:auto;
+}
+div.skill-description{
+    width:80%;
+    float: left;
+    height:auto;
+}
+div.skill-description p{
+    font-family:'Raleway',sans-serif;
+    font-size:20px;
+    line-height:1.5;
+}
+div.skill-image{
+    float: left;
+    width:20%;
+    height:auto;
+}
+div.service-main{
+    width:100%;
+    height:auto;
+
+}
+div.service-description{
+    font-family:'Raleway',sans-serif;
+    font-size:20px;
+    width:100%;
+    height:auto;
+
+}
+section#contact,div.contact-pane{
+    width:100%;
+    height:auto;
+
+}
+div.contact-body{
+    height:auto;
+    width:80%;
+}
+div.contact-form,div#main-form{
+    width:60%;
+    height:auto;
+    line-height:2;
+}
+form{
+    margin:5px;
+}
+div.input-parent{
+    margin:15px 0 15px 0;
+    width:100%;
+    height:auto;
+    float:left;
+}
+div.input-parent>label{
+    width:5%;
+    height:auto;
+    float:left;
+}
+div.input-parent>label>i.fa-user-circle,div.input-parent>label>i.fa-commenting,div.input-parent>label>i.fa-edit,div.input-parent>label>i.fa-modx{
+    font-size:26px;
+    color:#424242;
+}
+
+div.input-parent>input{
+    border: 1px solid transparent;
+    background-color:transparent;
+    border-bottom-color: #e8e8e8;
+    text-transform: capitalize;
+    height:auto;
+    padding:10px 5px 5px 10px;
+    width:90%;
+    margin:5px;
+    font-family:'Raleway',sans-serif;
+    font-size:17px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+div.input-parent>input[type="email"],div.input-parent>input[type="email"]:focus{
+    text-transform: lowercase;
+}
+div.input-parent>input{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+div.input-parent>input:focus{
+    border: 1px solid transparent;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    border-bottom-color:teal ;
+    text-transform: capitalize;
+}
+
+div.input-parent>textarea{
+    border:1px solid transparent;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    border-bottom-color:#e8e8e8 ;
+    text-transform: capitalize;
+    width:92%;
+    height:auto;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    margin-left:10px;
+    background-color:transparent;
+
+}
+div.input-parent>textarea:focus{
+    border-bottom-color:teal;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+div.input-parent>button{
+    border:1px solid transparent;
+    background-color:#717171;
+    border-radius:0;
+    margin-left:15px;
+    cursor: pointer;
+    padding:2px 2px 2px 2px;
+    text-transform: uppercase;
+    font-family:'Raleway',sans-serif;
+}
+div.input-parent>button:hover{
+    background-color:#616161;
+    cursor: pointer;
+    color:teal;
+}
+div.input-parent>button>i.fa-send-o{
+    font-size:20px;
+}
